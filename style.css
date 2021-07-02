@@ -1,0 +1,31 @@
+/* Global Styles and Classes */
+
+body {
+  font-family: Roboto,Arial,Verdana,sans-serif;
+  background: black;
+  color: white;
+}
+
+
+
+.temp-toggle {
+  text-decoration: none;
+  position: fixed;
+  bottom: -2px;
+  right: 20px;
+  background-color: white;
+  color: black;
+  padding: 25px;
+  border-radius: 5%;
+  border: 2px black solid;
+  
+}
+
+.temp-toggle:hover {
+  color: #009B77;
+  text-decoration: none;
+}
+
+.sunrise, .sunset {
+  margin: 25px;
+}
