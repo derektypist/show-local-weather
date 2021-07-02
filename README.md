@@ -10,6 +10,10 @@ As a user, I can push a button to toggle between Fahrenheit and Celsius.
 
 Acknowledgements - Chris Bridges on GitHub (Accessed on 30 June 2021), w3schools.com, Font Awesome.
 
-On [GitHub Pages](https://derektypist.github.io/show-local-weather) at the main branch.
+Deployed On [GitHub Pages](https://derektypist.github.io/show-local-weather) at the main branch.
+
+A [Pen](https://codepen.io/derektypist/pen/qBmEozR) by [Derek Dhammaloka](https://codepen.io/derektypist) on [CodePen](https://codepen.io).
+
+[License](https://codepen.io/derektypist/pen/qBmEozR/license)
 
 
