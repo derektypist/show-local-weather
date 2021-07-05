@@ -17,9 +17,9 @@ function getWeatherInfo(position) {
       $('#city').text(weather.name + ', ');
       $('#country').text(weather.sys.country);
       currentTempInCelsius = Math.round(weather.main.temp * 10) / 10;
-      $('#temperature').html(currentTempInCelsius + ' &deg;');
+      $('#temperature').html(`${currentTempInCelsius} &deg;`);
       $('#tempunit').text(tempUnit);
-      $('.weather-icon').html('<img src=' + weather.weather[0].icon + 'alt="Your local weather icon">');
+      $('.weather-icon').html(`<img src= ${weather.weather[0].icon} alt="Your local weather icon">`);
       let sunrise = new Date(weather.sys.sunrise * 1000);
       $('#sunrise').text(sunrise.toTimeString().substring(0,5) + ' am');
       let sunset = new Date(weather.sys.sunset * 1000);
